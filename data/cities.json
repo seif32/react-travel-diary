@@ -1,0 +1,37 @@
+{
+  "cities": [
+    {
+      "id": "e388",
+      "cityName": "Paris",
+      "country": "France",
+      "date": "2024-09-26T14:49:51.647Z",
+      "notes": "",
+      "position": {
+        "lat": "48.85330797824286",
+        "lng": "2.347469329833985"
+      }
+    },
+    {
+      "id": "877f",
+      "cityName": "Damascus",
+      "country": "Syrian Arab Republic (the)",
+      "date": "2024-09-26T14:50:47.238Z",
+      "notes": "",
+      "position": {
+        "lat": "33.51162942617925",
+        "lng": "36.30878448486329"
+      }
+    },
+    {
+      "id": "e5c1",
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "date": "2024-09-26T14:50:58.063Z",
+      "notes": "",
+      "position": {
+        "lat": "30.039377605001366",
+        "lng": "31.23344421386719"
+      }
+    }
+  ]
+}

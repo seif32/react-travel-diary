@@ -1,0 +1,39 @@
+.cityList {
+  width: 100%;
+  height: 65vh;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  /* Adding padding to prevent content overlap */
+  padding-right: 1rem;
+}
+
+/* WebKit Browsers */
+.cityList::-webkit-scrollbar {
+  width: 3px;
+}
+
+.cityList::-webkit-scrollbar-track {
+  background: #1b0303; /* Light background for the track */
+  border-radius: 10px; /* Rounded track */
+}
+
+.cityList::-webkit-scrollbar-thumb {
+  background: #888; /* Default scrollbar color */
+  border-radius: 10px; /* Rounded scrollbar */
+  border: 3px solid #f1f1f1; /* Space around the thumb for padding effect */
+}
+
+.cityList::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+/* Additional style to hide scrollbar in some browsers while keeping functionality */
+.cityList::-webkit-scrollbar-corner {
+  background: transparent;
+}
