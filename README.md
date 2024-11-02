@@ -23,13 +23,13 @@ WorldWise is a travel diary application that allows users to document their adve
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/worldwise.git
+   git clone https://github.com/seif32/react-travel-diary.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd worldwise
+   cd react-travel-diary
    ```
 
 3. Install dependencies:
